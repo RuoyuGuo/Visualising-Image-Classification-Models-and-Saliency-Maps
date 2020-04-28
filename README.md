@@ -1,6 +1,6 @@
-### Deep Inside Convolutional Networks
-### Paper: Simonyan, K., Vedaldi, A., Zisserman, A. 2013. Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps.
-### Link: https://arxiv.org/abs/1312.6034v2
+## Deep Inside Convolutional Networks
+## Paper: Simonyan, K., Vedaldi, A., Zisserman, A. 2013. Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps.
+## Link: https://arxiv.org/abs/1312.6034v2
 
 reference:
 * [0]https://arxiv.org/abs/1312.6034v2
@@ -27,3 +27,5 @@ I use the formula(1) given in the paper, and use zero image plus ImageNet weight
 Therefore, I use methods mentioned in [3]. Besides, I create a zero image with e*20 noise per pixel, where e randomly are sample from np.random.random(). Then plus ImageNet weights. For depreprocessing, I use methods in [3].
 
 You can find more details in *Visualising Image Classification Models and Saliency Maps.ipynb*.
+
+### If you have any suggestions or questions, please create issue, Thank you!
